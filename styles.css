@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+.navigation-items{
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 75px;
+    padding-right: 200px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.spacer{
+    padding-top: 70px;
+       
+}
+.content{
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 150px;
+}
+.links{
+    display: flex;
+    list-style-type: none;
+    margin-top: 5px;
+    gap: 10px;
+    padding-left: 150px;
+    margin: 0;
+}
+
+.link-logo{
+    height: 30px;   
+    width: 30px;
+}
+.background-image{
+    
+    height: auto;
+    width: 45%;
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+    z-index: -9998;
+}
+
+.background-vector{
+    height: auto;
+    width: 27%;
+    position: absolute; 
+    padding-right: 120px;
+    padding-bottom: 40px;
+    bottom: 0;
+    right: 0;
+    z-index: -9999;
+}
+.page-indicator{
+    display: flex;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    
+}
+.page-indicator .page-1{
+    width: 77px;
+    height: 8px;
+    background: #FF0000;
+    border-radius: 128px;
+}
+.page-indicator .page-2{
+    width: 77px;
+    height: 8px;
+    background: gray;
+    border-radius: 128px;
+}
+.page-indicator .page-3{
+    width: 77px;
+    height: 8px;
+    background: grey;
+    border-radius: 128px;
+}
+/* 
+position: absolute;
+width: 77px;
+height: 8px;
+left: 132px;
+top: 977px;
+
+background: #FF0000;
+border-radius: 128px; */
